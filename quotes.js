@@ -81,6 +81,14 @@ const quotes = [
       "Cooking is like painting or writing a song. Just as there are only so many notes or colors, there are only so many flavors - it's how you combine them that sets you apart.",
     author: "Wolfgang Puck",
   },
+  {
+    quote:"Food is not rational. Food is culture, habit, craving and identity.",
+    author:"Jonathan Safran Foer"
+  },
+  {
+    quote:"Food is not just fuel, it's information. It talks to your DNA and tells it what to do.",
+    author:"Mark Hyman"
+  }
 ];
 
 module.exports = quotes;
