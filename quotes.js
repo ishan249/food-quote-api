@@ -88,6 +88,10 @@ const quotes = [
   {
     quote:"Food is not just fuel, it's information. It talks to your DNA and tells it what to do.",
     author:"Mark Hyman"
+  },
+  {
+    quote:"Food is memories. And memories are our family ties, and if we don't have them, we don't have anything.",
+    author:"Chef Anthony Bourdain"
   }
 ];
 
