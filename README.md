@@ -16,11 +16,30 @@ https://food-quote-api.vercel.app
 ```bash
   GET /api/foodquote
 ```
+
+## Example
+
+```javascript
+ app.get("/getfoodquote", (req,res)=>{
+  axios.get("https://food-quote-api.vercel.app/api/foodquote")
+  .then((response)=>{
+    res.send(response.data);
+  })
+  .catch((error)=>{
+    console.log(error);
+  })
+})
+```
 ## Response
 
+
 ```http
-  {"quote":"Good food is very often, even most often, simple food.","author":"Anthony Bourdain"}
+ {
+  "quote": "I watch cooking change the cook, just as it transforms the food.",
+  "author": "Laura Esquivel"
+}
 ```
+
 
 ## Contributing
 
